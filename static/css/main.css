@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 40px;
+    float: left;
+}
+
+.mainImg{
+    background-image: url(C:\webAssignment\static\img\mainImg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 800px;
+}
+
+.navPos{
+    position: absolute;
+    margin: 30px;
+    width: auto;		
+}
+
+.topnav{
+    overflow: hidden
+}
+
+.topnav a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 30px;
+}
