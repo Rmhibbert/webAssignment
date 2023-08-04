@@ -3,13 +3,17 @@ body{
     padding: 0;
 }
 
+h1{
+    text-align: center;
+}
+
 .logo{
     width: 40px;
     float: left;
 }
 
 .mainImg{
-    background-image: url(C:\webAssignment\static\img\mainImg.jpg);
+    background-image: url("main.css");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
