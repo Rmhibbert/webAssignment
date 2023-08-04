@@ -1,3 +1,5 @@
+
+
 body{
     margin: 0;
     padding: 0;
@@ -13,7 +15,7 @@ h1{
 }
 
 .mainImg{
-    background-image: url("main.css");
+    background-image: url("/img/mainImg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
