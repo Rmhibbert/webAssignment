@@ -152,38 +152,18 @@ h1 {
 
 .section div{
     display: inline-block;
-    height: 2000px;
+    height: 1000px;
 }
 
 .left{
     width: 50%;
     float: left;
-
-
 }
-
-.text{
-    position: sticky;
-}
-
-
 .right{
     background-color: #37BEBB;
-    position: relative;
+    width: 50%;
 }
 
-.collection{
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    display: flex;
-}
+.text p{
 
-.drink1{
-    background-color: blue;
-    width: 300px;
-}
-.drink2{
-    background-color: rgb(255, 0, 119);
-    width: 300px;
 }

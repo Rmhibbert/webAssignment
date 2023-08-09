@@ -15,7 +15,7 @@
 
 <div class="section">
   <div class ="left">
-    <div class="text">
+  <div class="text">
       <h3>Our Signature Drinks: </h3>
       <p>Tropical Fruit Splash: A symphony of tropical fruits, blending the goodness of mango, pineapple, and passion fruit, served in a coconut shell with a refreshing splash of coconut water. </p>
       <p>Citrus Lemonade: A zesty lemonade infused with the tangy flavors of lime and orange, served over ice with a twist of lemon peel. </p>
@@ -28,6 +28,6 @@
 
 
 
-  </div>
+  </div> 
 
 </div>
