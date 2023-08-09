@@ -10,14 +10,13 @@
 </footer>
 
 <footer class="bottom">
-    
-
     <div class="left">
-        <img src="/img/logoWhiteFill.svg">
+
     </div>
+
     <div class="right">
-        
-    </div>
+    
+    </div>  
 </footer>
 
 
