@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-	
+	 
 .logo {
     width: 100px;
     float: left;
@@ -58,6 +58,7 @@ h1 {
 }
 #col1 {
 	padding: 150px 0;
+    
 }
 
 #col1 p{
@@ -150,20 +151,23 @@ h1 {
 }
 
 
-.section div{
-    display: inline-block;
-    height: 1000px;
-}
 
-.left{
-    width: 50%;
+.owners{
+    background-image: url(/img/2people.jpg);
+    width: 60%;
+    background-position: left;
+    background-size: cover;
     float: left;
+    padding-left: 20px;
+    height: 700px;
 }
-.right{
-    background-color: #37BEBB;
-    width: 50%;
+.ownerT{
+    width: 30%;
+    float: right;
+    text-align: left;
 }
 
-.text p{
-
+.total{
+    width: 100%;
+    height: 1000px;
 }
