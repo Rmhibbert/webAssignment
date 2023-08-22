@@ -125,6 +125,7 @@ h1 {
     color: white;
     width: 100%;
     background-color: black;
+    
 }
 
 .left{
@@ -160,26 +161,31 @@ h1 {
 
 
 .owners{
-    background-image: url(/img/2people.jpg);
     width: 60%;
-    background-position: left;
-    background-size: cover;
-    float: left;
-    height: 700px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.owners img{
+    width: 90%;
 
 }
 .ownerT{
-    width: 30%;
-    float: left;
-    text-align: left;
-    padding-left: 30px;
-    padding-top: 100px;
-
+    display: flex;
+    width: 35%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     font-size: 20px;
 }
 
 .total{
     width: 100%;
     height: 750px;
-    padding: 20px;
+    display: flex;
+    gap: 10px;
 }
+
+
