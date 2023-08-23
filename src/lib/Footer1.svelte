@@ -10,19 +10,14 @@
 </footer>
 
 <footer class="bottom">
-    <div class="left">
-        <p>Copyright © 2023 Rory Hibbert</p>
+    <div class="ends">
         <p>60 Harbour Terrace</p>
         <p>Dunedin North</p>
         <p>9016</p>
-
     </div>
-    <div class= "footImg">
-        <img src="/img/logoWhiteFill.svg" class="logofoot">
-    </div>
-    <div class="right">
-        
-
+    <div class="mid"> <img src="/img/logoWhiteFill.svg"></div>
+    <div class="ends right">
+        <p>Copyright © 2023 Rory Hibbert</p>
     </div>  
 </footer>
 

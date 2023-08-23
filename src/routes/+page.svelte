@@ -22,5 +22,5 @@
       <p>Watermelon Breeze: The perfect summer cooler, a blend of fresh watermelon juice and mint leaves, served in a watermelon slice, conjuring memories of lazy beach days. </p>
       <p>Pineapple Paradise: Indulge in the sweetness of juicy pineapple, mixed with a hint of coconut cream and garnished with a pineapple wedge and maraschino cherry. </p>
       <p>Iced Berry Hibiscus Tea: A vibrant iced tea made with hibiscus flowers and a medley of mixed berries, topped with berries and fresh mint for a refreshing finish. </p> 
-
+ 
 

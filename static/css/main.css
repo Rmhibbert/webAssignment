@@ -13,6 +13,7 @@
     float: left;
 
 }
+
 .mainImg {
     background-image: url("/img/mainImg.jpg");
     background-position: center;
@@ -26,18 +27,20 @@
     margin: 30px;
     width: auto;
 }
-
+ 
 body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 	background-color: #F8F8F8;
 }
+
 h1 {
     text-align: center;
     font-family: 'Rubik', sans-serif;
 	font-size: 50px;
 }
+
 .topnav {
     overflow: hidden;
     padding-left: 40px;
@@ -105,13 +108,17 @@ h1 {
     height: 20%;
     background-color: #37BEBB;
     text-align: center;
-    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
 }
 
 .top a{
     text-decoration: none;
     color: black;
     font-family: 'Rubik', sans-serif;
+    
 }
 
 
@@ -125,26 +132,28 @@ h1 {
     color: white;
     width: 100%;
     background-color: black;
-    
+    display: flex;
 }
 
-.left{
-    float: left;
+.ends{
+    width:100%;
+}
+.mid{
     width: 50%;
-    padding: 20px;
-    height: 100%;
-}
-.left p{
-    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
-.logofoot{
-    width: 10%;
-    float: left;
-    
-
+.mid img{
+    width: 80%;
 }
 
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
 
 .paralax{
   
