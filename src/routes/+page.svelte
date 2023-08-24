@@ -16,11 +16,25 @@
 
 
 
-      <h3>Our Signature Drinks: </h3>
-      <p>Tropical Fruit Splash: A symphony of tropical fruits, blending the goodness of mango, pineapple, and passion fruit, served in a coconut shell with a refreshing splash of coconut water. </p>
-      <p>Citrus Lemonade: A zesty lemonade infused with the tangy flavors of lime and orange, served over ice with a twist of lemon peel. </p>
-      <p>Watermelon Breeze: The perfect summer cooler, a blend of fresh watermelon juice and mint leaves, served in a watermelon slice, conjuring memories of lazy beach days. </p>
-      <p>Pineapple Paradise: Indulge in the sweetness of juicy pineapple, mixed with a hint of coconut cream and garnished with a pineapple wedge and maraschino cherry. </p>
-      <p>Iced Berry Hibiscus Tea: A vibrant iced tea made with hibiscus flowers and a medley of mixed berries, topped with berries and fresh mint for a refreshing finish. </p> 
- 
+<div class="out">
+<div class="drinktxt">
+  <h3>Our Signature Drinks: </h3>
+  <p><strong>Tropical Fruit Splash:</strong> A symphony of tropical fruits, blending the goodness of mango, pineapple, and passion fruit, served in a coconut shell with a refreshing splash of coconut water. </p>
+  <p><strong> Citrus Lemonade:</strong> A zesty lemonade infused with the tangy flavors of lime and orange, served over ice with a twist of lemon peel. </p>
+  <p><strong> Watermelon Breeze:</strong>The perfect summer cooler, a blend of fresh watermelon juice and mint leaves, served in a watermelon slice, conjuring memories of lazy beach days. </p>
+  <p><strong> Pineapple Paradise:</strong> Indulge in the sweetness of juicy pineapple, mixed with a hint of coconut cream and garnished with a pineapple wedge and maraschino cherry. </p>
+  <p><strong> Iced Berry Hibiscus Tea:</strong> A vibrant iced tea made with hibiscus flowers and a medley of mixed berries, topped with berries and fresh mint for a refreshing finish. </p> 
+</div>
+<div class="drinks">
+  <div class="types">
+    <div class="drink"><div class="imgdisp"><img src="/img/lemon.jpg"></div></div>
+    <div class="drink"><div class="imgdisp"><img src="/img/lemon.jpg"></div></div>
+    <div class="drink"><div class="imgdisp"><img src="/img/lemon.jpg"></div></div>
+    <div class="drink"><div class="imgdisp"><img src="/img/lemon.jpg"></div></div>
+    <div class="drink"><div class="imgdisp"><img src="/img/lemon.jpg"></div></div>
+  </div>
+
+
+</div>
+</div>
 
