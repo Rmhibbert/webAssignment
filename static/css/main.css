@@ -22,14 +22,7 @@
     position: relative;
     min-height: 800px;
 }
-.navPos {
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
+
  
 body {
     margin: 0;
@@ -44,16 +37,23 @@ h1 {
 	font-size: 50px;
 }
 
+.navPos {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .topnav {
     overflow: hidden;
     padding-left: 40px;
     display: flex;
-    
-
+    align-items: center;
 }
 
 .topnav a {
-  padding: 14px 60px;
+  padding: 14px 30px;
   text-align: center;
   color: black;
   position: relative;
@@ -221,7 +221,7 @@ h1 {
 
 .out{
     width: 100%;
-    height: 3200px;
+    min-height: 3200px;
     display: flex;
 }
 
@@ -234,7 +234,7 @@ h1 {
     padding: 20px;
     position: sticky;
     top:0%;
-    height: 1000px;
+    height: 100vh;
 }
 
 .drinktxt h3{
@@ -249,20 +249,20 @@ h1 {
 .drinks{
     width: 50%;
     margin: 30px;
-    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .types{
     
     display: flex;
     flex-direction: column;
-    height: 98%;
+    min-height: 1px;
     gap: 20px;
 }
 
-.drink{
-    display: flex;
-}
 
 .imgdisp{
     display: flex;
@@ -277,4 +277,30 @@ h1 {
     align-items: center;
     justify-content: center;
     
+}
+
+
+@media screen and (max-width: 1000px){
+    .topnav a{
+        font-size: 20px;
+        
+    }
+
+  
+}
+
+@media screen and (max-width: 825px){
+    .topnav a{
+
+        padding: 14px 20px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 725px){
+    
+/* hamburger menu, nav disaper image center*/
+
 }
