@@ -2,6 +2,7 @@
 
 
 <div class="mainImg">
+  <div class="background">&nbsp;</div>
     <div class="navPos">
       <div class="topnav">
         <img src="/img/logo.svg" class="logo" alt="This is an image of my logo">           
