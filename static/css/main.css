@@ -143,6 +143,7 @@ h1 {
 
 .ends{
     width:100%;
+    display: flex;
 }
 .mid{
     width: 50%;
@@ -155,25 +156,34 @@ h1 {
     width: 80%;
 }
 
-.right{
+.copyright{
+    width: 50%;
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: end;
-   
+    align-items: center;
 }
 
-.right img{
-    align-items:start;
+.brand{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .comp{
-    width: 20%;
-    
+    width: 50%;
 }
 
 .left{
     padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
 
+.left li{
+    list-style: none;
 }
 
 .paralax{
@@ -221,7 +231,7 @@ h1 {
 
 .out{
     width: 100%;
-    min-height: 3200px;
+    min-height: 300vh;
     display: flex;
 }
 
@@ -280,7 +290,7 @@ h1 {
 }
 
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1025px){
     .topnav a{
         font-size: 20px;
         
@@ -289,7 +299,7 @@ h1 {
   
 }
 
-@media screen and (max-width: 825px){
+@media screen and (max-width: 850px){
     .topnav a{
 
         padding: 14px 20px;
@@ -299,8 +309,8 @@ h1 {
 
 
 
-@media screen and (max-width: 725px){
+@media screen and (max-width: 750px){
     
-    
+    /*this will be when the page adds a hamburger menu*/
 
 }

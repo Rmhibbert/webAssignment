@@ -10,7 +10,7 @@
         <a href="/About" class = "trans">About Us</a>
         <a href="/Drinks" class = "trans">Drink List</a>
         <a href="/Contact" class = "trans">Contact</a>
-        <a href="/Blog" class = "trans">Blog</a>
+        <a href="/Gallery" class = "trans">Blog</a>
       </div>
     </div>
   </div>
