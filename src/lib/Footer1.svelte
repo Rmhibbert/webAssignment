@@ -6,7 +6,7 @@
     <a href="/About">About Us </a> |
     <a href="/Drinks">Drink List </a> |
     <a href="/Contact">Contact </a> |
-    <a href="/Gallery">Blog</a>
+    <a href="/Gallery">Gallery</a>
 </footer>
 
 <footer class="bottom">

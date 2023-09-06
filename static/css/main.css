@@ -290,19 +290,50 @@ h1 {
 }
 
 
-@media screen and (max-width: 1025px){
-    .topnav a{
-        font-size: 20px;
-        
+@media screen and (max-width: 1400px){
+    .total{
+        height: 600px;
     }
 
+    .out{
+        height: 200vh;
+    }
   
 }
+
+@media screen and (max-width: 1200px){
+    .ownerT{
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 1040px){
+    .topnav a{
+        font-size: 20px;
+    }
+    .ownerT{
+        font-size: 16px;
+    }
+    .total{
+        height: 500px;
+    }
+}
+
+
 
 @media screen and (max-width: 850px){
     .topnav a{
 
         padding: 14px 20px;
+    }
+
+    .ownerT{
+        font-size: 14px;
+
+    }
+    .total{
+        height: 400px;
     }
 }
 
@@ -312,5 +343,7 @@ h1 {
 @media screen and (max-width: 750px){
     
     /*this will be when the page adds a hamburger menu*/
+
+
 
 }

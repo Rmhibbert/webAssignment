@@ -25,11 +25,11 @@
 </div>
 <div class="drinks">
   <div class="types">
-    <div class="drink"><div class="imgdisp"><img src="/img/trop.jpg"></div></div>
-    <div class="drink"><div class="imgdisp"><img src="/img/lemon.jpg"></div></div>
-    <div class="drink"><div class="imgdisp"><img src="/img/melon.jpg"></div></div>
-    <div class="drink"><div class="imgdisp"><img src="/img/pine.jpg"></div></div>
-    <div class="drink"><div class="imgdisp"><img src="/img/tea.jpg"></div></div>
+    <div class="drink imgdisp"><img src="/img/trop.jpg"></div>
+    <div class="drink imgdisp"><img src="/img/lemon.jpg"></div>
+    <div class="drink imgdisp"><img src="/img/melon.jpg"></div>
+    <div class="drink imgdisp"><img src="/img/pine.jpg"></div>
+    <div class="drink imgdisp"><img src="/img/tea.jpg"></div>
   </div> 
 
 
