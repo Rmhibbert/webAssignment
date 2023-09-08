@@ -31,8 +31,6 @@
     <div class="drink imgdisp"><img src="/img/pine.jpg"></div>
     <div class="drink imgdisp"><img src="/img/tea.jpg"></div>
   </div> 
-
-
 </div>
 </div>
 
