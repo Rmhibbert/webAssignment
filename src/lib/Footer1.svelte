@@ -17,6 +17,7 @@
     </div>
     <div class="mid"> <img src="/img/logoWhiteFill.svg"></div>
     <div class="ends right">
+        
         <p>Copyright © 2023 Rory Hibbert</p>
     </div>  
 </footer>

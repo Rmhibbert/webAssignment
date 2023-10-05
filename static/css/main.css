@@ -155,6 +155,10 @@ h1 {
     align-items: end;
 }
 
+.right img{
+    width: 30%;
+}
+
 .paralax{
   
     background-image: url("/img/poolside.jpg");
