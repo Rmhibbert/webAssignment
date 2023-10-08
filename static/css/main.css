@@ -293,6 +293,25 @@ h1 {
     
 }
 
+.back{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height:50vh;
+}
+
+.aboutLeft{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    height: 50vh;
+}
+
+.aboutImg{
+    width: 50%;
+    background-color:#37BEBB;
+    height: 50vh;
+}
 
 @media screen and (max-width: 1400px){
     .total{
@@ -301,7 +320,7 @@ h1 {
 
     .out{
         height: 200vh;
-    }
+    }  
   
 }
 
