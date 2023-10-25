@@ -9,7 +9,6 @@
         <a href="/" class = "trans">Home</a>
         <a href="/About" class = "trans">About Us</a>
         <a href="/Drinks" class = "trans">Drink List</a>
-        <a href="/Contact" class = "trans">Contact</a>
         <a href="/Gallery" class = "trans">Gallery</a>
       </div>
     </div>
