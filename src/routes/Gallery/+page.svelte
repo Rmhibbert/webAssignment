@@ -32,7 +32,7 @@
     }
 
     .imgboxs{
-        width:30%;
+        width:28%;
         display:flex;
         align-items: center;
     }
@@ -41,7 +41,37 @@
         display: flex;
         justify-content: space-evenly;
         width: 100%;
-        padding: 10px;
+        border-radius: 50px;
+        padding: 25px;
+        
+    }
+
+    .imgboxs:hover {
+        overflow:hidden;
+        
+    }
+
+    .imgboxs:hover>img {
+        transition: transform .8s ease;
+        border-radius: 50px;
+    }
+
+
+    .imgboxs:hover>img{
+        padding: auto;
+        transform:scale(1.1)
+        
+    }
+
+
+    @media screen and (max-width:950px){
+        .imgboxs{
+        width:80%;
+    }
+    .outer{
+        flex-direction: column;
+        align-items: center;
+    }
     }
 
 </style>
