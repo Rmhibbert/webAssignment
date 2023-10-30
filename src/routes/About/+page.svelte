@@ -15,3 +15,21 @@
     <div class="aboutLeft aboutImg"></div>
     <div class=""></div>
 </div>
+
+<script>
+    import { onMount } from 'svelte';
+
+    let imgs = [];
+    const BASE_URL = `https://api.unsplash.com`;
+    onMount(() => {
+        fetch(`${BASE_URL}/search/photos?query=seashore-golden-hour&per_page=1&client_id=0nYy0tRh8bLy2fKjqlRajXGM5LAX5vxXTSXyKErDqB0`)
+        .then(res => res.json())
+        .then(data => {
+            imgs = data.results;
+        });
+    });
+</script>
+
+{#each imgs as img}
+    <img src={img.urls.raw} height="1000px" >
+{/each}
