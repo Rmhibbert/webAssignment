@@ -11,7 +11,7 @@
 </div>
 
 
-<div class= "paralax"></div>
+<div class="paralax"></div>
 
 
 <div class="out">

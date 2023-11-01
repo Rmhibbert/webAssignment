@@ -52,6 +52,7 @@ h1 {
     align-items: center;
 }
 
+
 .topnav a {
   padding: 14px 30px;
   text-align: center;
@@ -313,6 +314,16 @@ h1 {
     height: 50vh;
 }
 
+
+.hamburger{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #F8D147;
+    display: none;
+    padding: 20px;
+}
+
 @media screen and (max-width: 1400px){
     .total{
         height: 600px;
@@ -384,7 +395,19 @@ h1 {
 @media screen and (max-width: 750px){
     
     /*this will be when the page adds a hamburger menu*/
+    .topnav a{
+        display: none;
+    }
 
-
-
+    .hamburger{
+        display: flex;
+        
+    }
+    .buttonPos{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        
+    }
 }

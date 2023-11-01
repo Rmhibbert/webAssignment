@@ -2,23 +2,44 @@
 <h2>SunSplash Beverages Around The World</h2>
 
 <div class="outer">
-    <div class="imgboxs"><img src="/img/gal1.jpg"></div>
-    <div class="imgboxs"><img src="/img/gal2.jpg"></div>
-    <div class="imgboxs"><img src="/img/gal3.jpg"></div>
+    {#each imgs as img}
+    <div class="imgboxs"><img src={img.urls.raw}></div>
+    {/each}
 </div>
 
 <div class="outer">    
-    <div class="imgboxs"><img src="img/gal4.jpg"></div>
-    <div class="imgboxs"><img src="img/gal5.jpg"></div>
-    <div class="imgboxs"><img src="img/gal6.jpg"></div>
+    {#each imges as img}
+    <div class="imgboxs"><img src={img.urls.raw}></div>
+    {/each}
 </div>
 
+<script>
+    import { onMount } from 'svelte';
+
+    let imgs = [];
+    let imges =[];
+    const BASE_URL = `https://api.unsplash.com`;
+    onMount(() => {
+        fetch(`${BASE_URL}/search/photos?query=seashore-golden-hour&per_page=3&client_id=0nYy0tRh8bLy2fKjqlRajXGM5LAX5vxXTSXyKErDqB0`)
+        .then(res => res.json())
+        .then(data => {
+            imgs = data.results;
+        });
+
+        fetch(`${BASE_URL}/search/photos?query=horizontal-nice&per_page=3&client_id=0nYy0tRh8bLy2fKjqlRajXGM5LAX5vxXTSXyKErDqB0`)
+        .then(rest => rest.json())
+        .then(item => {
+            imges = item.results;
+        });
+    });
+</script>
 
 <style>
 
     h2{
         text-align: center;
     }
+
     *{
         box-sizing: border-box;
         margin: 0;
