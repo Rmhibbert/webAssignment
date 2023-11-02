@@ -10,7 +10,7 @@
 .logo {
     width: 140px;
     padding-right: 20px;
-    float: left;
+    
 
 }
 
@@ -315,14 +315,92 @@ h1 {
 }
 
 
-.hamburger{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #F8D147;
-    display: none;
-    padding: 20px;
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .35s, visibility .35s, height .35s;
+    overflow: hidden;
+    background: black;
+    z-index: -1;
 }
+
+#hamburger-input{
+    display: none;
+  }
+  
+  #hamburger-menu {  
+      position:initial;
+      top: 20px;
+      left: 20px;
+      width: 60px;
+      height: 50px;
+      display: none;
+      border: none;
+      padding: 0px;
+      margin: 20px;
+      font-family: 'Cabin', Sans-serif;
+      background: linear-gradient(
+        to bottom, 
+        #000000, #000000 20%, 
+        rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 40%, 
+        #000000 40%, #000000 60%, 
+        rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 80%, 
+        #000000 80%, #000000 100%
+      );
+      
+  }
+  
+  #hamburger-menu #sidebar-menu {
+      visibility: hidden;
+      position: fixed;
+      top: 0;
+      left: -250px;
+      width: 100%;
+      height: 100%;
+      background-color:#37BEBB;
+      transition: 0.3s;
+      padding: 0px 10px;
+      box-sizing: border-box;
+  }
+  
+  #hamburger-menu h3 {
+    color: #B9FAF8;
+    font-size: 2.2rem;
+  }
+  
+  #hamburger-menu ul {
+    padding-left: 0px;
+  }
+  
+  #hamburger-menu li {
+    list-style-type: none;
+    line-height: 3rem;
+  }
+  
+  #hamburger-menu a {
+    color: #B9FAF8;
+    font-size: 1.3rem;
+    text-decoration: none;
+  }
+  
+  #hamburger-menu a:hover {
+    text-decoration: underline;
+  }
+  
+  #hamburger-input:checked + #hamburger-menu #sidebar-menu {
+      visibility: visible;
+      left: 0;
+  }
+  #hamburger-input:checked ~ .overlay{
+     visibility: visible;
+    opacity: 0.4;
+  }
 
 @media screen and (max-width: 1400px){
     .total{
@@ -376,9 +454,7 @@ h1 {
 }
 
 @media screen and (max-width:950px){
-    .total{
-        
-    }
+ 
 }
 
 
@@ -390,24 +466,28 @@ h1 {
 }
 
 
-
-
 @media screen and (max-width: 750px){
     
     /*this will be when the page adds a hamburger menu*/
     .topnav a{
         display: none;
     }
-
-    .hamburger{
-        display: flex;
-        
-    }
-    .buttonPos{
-        width: 70%;
+.navPos{
+    display: flex;
+    justify-content: start;
+}
+   
+    .topnav {
+        width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: end;
-        
+        justify-content: center;
     }
+
+    #hamburger-menu {
+        display: flex;
+
+    }
+
+      
 }
