@@ -3,7 +3,6 @@
 
 <footer class="top"> 
     <a href="/">Home</a> |
-    <a href="/About">About Us </a> |
     <a href="/Drinks">Drink List </a> |
     <a href="/Gallery">Gallery</a>
 </footer>

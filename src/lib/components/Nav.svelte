@@ -11,7 +11,6 @@
   <h3>Menu</h3>
   <ul>
     <li><a href="/" target="_self">Home</a></li>
-    <li><a href="/About" target="_self">About Us</a></li>
     <li><a href="/Drinks" target="_self">Drink List</a></li>
     <li><a href="/Gallery" target="_self">Gallery</a></li>
     <h4>EXIT</h4>
@@ -21,7 +20,6 @@
         <div class="topnav">
           <img src="/img/logo.svg" class="logo" alt="This is an image of my logo">           
           <a href="/" >Home</a>
-          <a href="/About" >About Us</a>
           <a href="/Drinks" >Drink List</a>
           <a href="/Gallery" >Gallery</a>      
         </div>
