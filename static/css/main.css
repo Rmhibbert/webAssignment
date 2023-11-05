@@ -428,9 +428,7 @@ h1 {
 
 
 @media screen and (max-width: 1100px){
-    .topnav a{
-        font-size: 20px;
-    }
+
     .ownerT{
         font-size: 16px;
     }
