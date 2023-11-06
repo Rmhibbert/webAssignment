@@ -10,8 +10,6 @@
 .logo {
     width: 140px;
     padding-right: 20px;
-    
-
 }
 
 .mainImg {
@@ -158,7 +156,7 @@ h1 {
 }
 
 .copyright{
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -441,6 +439,7 @@ h1 {
 }
 
 
+
 @media screen and (max-width: 1100px){
 
     .ownerT{
@@ -462,7 +461,7 @@ h1 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 100vh;
+        height: 90vh;
     }
 
     .owners{
@@ -499,8 +498,30 @@ h1 {
     }
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 780px){
 /* This is for changing the flex direction of the home page so the images go across way and the text goes above*/
+
+.total{
+    height: 85vh;
+}
+
+.out{
+    flex-direction: column;
+    
+}
+.drinktxt{
+    width: 100%;
+    align-items: normal;
+    position:inherit;
+    height: 60vh;
+}
+
+.drinks{
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+}
+
 }
 
 @media screen and (max-width: 750px){
@@ -525,7 +546,64 @@ h1 {
     #hamburger-menu {
         display: flex;
 
-    }
-
-      
+    }  
 }
+
+
+@media screen and (max-width: 730px){
+    .copyright{
+        font-size: 14px;
+    }
+    .left{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 710px){
+
+    .drinktxt p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 635px){
+    .copyright{
+        font-size: 12px;
+    }
+    .left{
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 470px){
+    .drinktxt p{
+        font-size: 12px;
+    }
+    .bottom{
+        flex-direction: column;
+    }
+    .ends, .copyright{
+        height: 50%;
+        justify-content: center;
+        font-size: 18px;
+    }
+    .mid{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .ownerT{
+        font-size: 17px;
+    }
+    .drinktxt p{
+        font-size: 10px;
+    }
+    .drinktxt h3{
+        font-size: 25px;
+    }
+    .ends, .copyright{
+        font-size: 16px;
+    }
+}
+/*I have covered for screen width down to 400px  */

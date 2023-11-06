@@ -14,7 +14,7 @@
 <div class="paralax"></div>
 
 
-<div class="out">
+<div class="out"> 
 <div class="drinktxt">
   <h3>Our Signature Drinks: </h3>
   <p><strong>Tropical Fruit Splash:</strong> A symphony of tropical fruits, blending the goodness of mango, pineapple, and passion fruit, served in a coconut shell with a refreshing splash of coconut water. </p>

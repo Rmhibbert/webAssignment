@@ -18,8 +18,6 @@
     <div class="mid"> <img src="/img/logoWhiteFill.svg"></div>
     <div class="ends">
         <div class="copyright">Copyright © 2023 Rory Hibbert</div>
-       
-        <div class="brand"><img src="/img/Untitled-2.png" class="comp"></div>        
     </div>  
 </footer>
 
