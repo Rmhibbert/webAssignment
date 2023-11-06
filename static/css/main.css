@@ -409,15 +409,29 @@ h1 {
         font-weight: lighter;
   }
 
+  @media screen and (max-width: 1550px){
+    .out{
+        min-height: 230vh;
+    }
+  }
+
+ 
+
 @media screen and (max-width: 1400px){
     .total{
         height: 600px;
     }
 
     .out{
-        height: 200vh;
+        min-height: 200vh;
     }  
   
+}
+
+@media screen and (max-width: 1375px){
+    .out{
+        min-height: 100vh;
+    }  
 }
 
 @media screen and (max-width: 1290px){
@@ -437,6 +451,12 @@ h1 {
     }
 }
 
+@media screen and (max-width: 1045px){
+    .drinktxt p {
+        font-size: 18px;
+    }
+}
+
 @media screen and (max-width:990px){
     .total{
         display: flex;
@@ -453,15 +473,24 @@ h1 {
         display: flex;
         width: 80%;
         font-size: 18px;
+    }
 
-
+    .drinktxt h3{
+        font-size: 35px;
     }
 }
 
 @media screen and (max-width:950px){
- 
+    .drinktxt p {
+        font-size: 16px;
+    }
 }
 
+@media screen and (max-width: 885px){
+    .drinktxt h3{
+        font-size: 30px;
+    }
+}
 
 @media screen and (max-width: 850px){
     .topnav a{
@@ -470,6 +499,9 @@ h1 {
     }
 }
 
+@media screen and (max-width: 750px){
+/* This is for changing the flex direction of the home page so the images go across way and the text goes above*/
+}
 
 @media screen and (max-width: 750px){
     
