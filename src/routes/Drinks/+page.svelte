@@ -19,7 +19,7 @@
             sipper.
           </p>
         </div>
-        <div class="ing">
+        <div class="ing"> 
           <ul>
             <li>Mango juice</li>
             <li>Pineapple juice</li>
@@ -275,7 +275,7 @@
     }
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 810px) {
     .name {
       font-size: 22px;
     }
@@ -286,27 +286,84 @@
 
   @media screen and (max-width: 700px) {
     .all {
-      
-      height: 100vh;
+      height: 80vh;
     }
-
-    .order1{
-        flex-direction: column-reverse;
+    .cont {
+      height: 100%;
     }
-    .order2{
-        flex-direction: column;
+    .order1 {
+      flex-direction: column-reverse;
+    }
+    .order2 {
+      flex-direction: column;
     }
     .info {
-        
       width: 100%;
+      height: 100%;
     }
-    .drink,.drink1,.drink2,.drink3,.drink4 {
+    .drink,
+    .drink1,
+    .drink2,
+    .drink3,
+    .drink4 {
       width: 100%;
-      height: 50vh;
+      height: 70vh;
     }
 
-    .alldrinks{
-        gap: 0;
+    .alldrinks {
+      gap: 0;
+    }
+
+    .desc {
+      font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 680px) {
+    .desc {
+      font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 625px) {
+    .desc {
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width: 490px) {
+    .desc {
+      font-size: 11px;
+    }
+  }
+
+  @media screen and (max-width: 465px) {
+    .desc {
+      font-size: 11px;
+      padding: 0 20px;
+    }
+    .ing{
+      font-size: 15px;
+    }
+
+  }
+
+  @media screen and (max-width: 405px) {
+    .desc {
+      font-size: 10px;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .name {
+      font-size: 18px;
+    }
+    .ing{
+      font-size: 14px;
+    }
+
+    .desc {
+      padding: 0 5px;
     }
   }
 </style>

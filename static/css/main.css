@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-	 
 
-*{
+
+* {
     box-sizing: border-box;
 }
 
@@ -21,18 +21,18 @@
     min-height: 800px;
 }
 
- 
+
 body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-	background-color: #F8F8F8;
+    background-color: #F8F8F8;
 }
 
 h1 {
     text-align: center;
     font-family: 'Rubik', sans-serif;
-	font-size: 50px;
+    font-size: 50px;
 }
 
 .navPos {
@@ -52,87 +52,87 @@ h1 {
 
 
 .topnav a {
-  padding: 14px 30px;
-  text-align: center;
-  color: black;
-  position: relative;
-  text-decoration: none;
-  font-size: 30px;
-  font-family: 'Rubik', sans-serif;
-  
-}	
+    padding: 14px 30px;
+    text-align: center;
+    color: black;
+    position: relative;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
 
-	
+}
+
+
 .topnav a::before,
 .topnav a::after {
-  content: '';
-  height: 14px;
-  width: 14px;
-  position: absolute;
-  transition: all .35s ease;
-  opacity: 0;
+    content: '';
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    transition: all .35s ease;
+    opacity: 0;
 }
 
 .topnav a::before {
-  content: '';
-  right: 0;
-  top: 0;
-  border-top: 3px solid #FFD160;
-  border-right: 3px solid #F8D147;
-  transform: translate(-100%, 50%);
+    content: '';
+    right: 0;
+    top: 0;
+    border-top: 3px solid #FFD160;
+    border-right: 3px solid #F8D147;
+    transform: translate(-100%, 50%);
 }
 
 .topnav a:after {
-  content: '';
-  left: 0;
-  bottom: 0;
-  border-bottom: 3px solid #F8D147;
-  border-left: 3px solid #FFD160;
-  transform: translate(100%, -50%)
+    content: '';
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid #F8D147;
+    border-left: 3px solid #FFD160;
+    transform: translate(100%, -50%)
 }
 
 .topnav a:hover:before,
-.topnav a:hover:after{
-  transform: translate(0,0);
-  opacity: 1;
+.topnav a:hover:after {
+    transform: translate(0, 0);
+    opacity: 1;
 }
 
 .topnav a:hover {
-  color: #FFD160;
-  font-weight: bold;
+    color: #FFD160;
+    font-weight: bold;
 }
 
-.double{
+.double {
     width: 100%;
     height: 250px;
     position: absolute;
 
 }
 
-.top{
+.top {
     height: 20%;
     background-color: #37BEBB;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:10px;
+    gap: 10px;
 }
 
-.top a{
+.top a {
     text-decoration: none;
     color: black;
     font-family: 'Rubik', sans-serif;
-    
+
 }
 
 
-.top a:hover{
+.top a:hover {
     color: #FFD160;
-    
+
 }
 
-.bottom{
+.bottom {
     height: 80%;
     color: white;
     width: 100%;
@@ -140,22 +140,23 @@ h1 {
     display: flex;
 }
 
-.ends{
-    width:100%;
+.ends {
+    width: 100%;
     display: flex;
 }
-.mid{
+
+.mid {
     width: 50%;
     align-items: center;
     justify-content: center;
     display: flex;
 }
 
-.mid img{
+.mid img {
     width: 80%;
 }
 
-.copyright{
+.copyright {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -163,7 +164,7 @@ h1 {
     align-items: center;
 }
 
-.brand{
+.brand {
     width: 50%;
     display: flex;
     flex-direction: row;
@@ -171,28 +172,28 @@ h1 {
     align-items: center;
 }
 
-.comp{
+.comp {
     width: 50%;
 }
 
-.left{
+.left {
     padding-left: 20px;
     display: flex;
     align-items: center;
 }
 
-.left li{
+.left li {
     list-style: none;
 }
 
-.right img{
+.right img {
     width: 30%;
 }
 
-.paralax{
-  
+.paralax {
+
     background-image: url("/img/poolside.jpg");
-  
+
     min-height: 500px;
 
     background-attachment: fixed;
@@ -203,7 +204,7 @@ h1 {
 
 
 
-.owners{
+.owners {
     width: 60%;
     height: auto;
     display: flex;
@@ -211,11 +212,13 @@ h1 {
     justify-content: center;
 
 }
-.owners img{
+
+.owners img {
     width: 90%;
 
 }
-.ownerT{
+
+.ownerT {
     display: flex;
     width: 35%;
     align-items: center;
@@ -224,7 +227,7 @@ h1 {
     font-size: 20px;
 }
 
-.total{
+.total {
     width: 100%;
     height: 750px;
     display: flex;
@@ -232,13 +235,13 @@ h1 {
 }
 
 
-.out{
+.out {
     width: 100%;
     min-height: 300vh;
     display: flex;
 }
 
-.drinktxt{
+.drinktxt {
     display: flex;
     width: 50%;
     align-items: center;
@@ -246,20 +249,20 @@ h1 {
     flex-direction: column;
     padding: 20px;
     position: sticky;
-    top:0%;
+    top: 0%;
     height: 100vh;
 }
 
-.drinktxt h3{
+.drinktxt h3 {
     font-size: 40px;
 }
 
-.drinktxt p{
+.drinktxt p {
     font-size: 20px;
 }
 
 
-.drinks{
+.drinks {
     width: 50%;
     margin: 30px;
     min-height: 100vh;
@@ -268,8 +271,8 @@ h1 {
     justify-content: center;
 }
 
-.types{
-    
+.types {
+
     display: flex;
     flex-direction: column;
     min-height: 1px;
@@ -277,44 +280,44 @@ h1 {
 }
 
 
-.imgdisp{
+.imgdisp {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
 
-.imgdisp img{
+.imgdisp img {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-.back{
+.back {
     display: flex;
     width: 100%;
     flex-direction: row;
-    height:50vh;
+    height: 50vh;
 }
 
-.aboutLeft{
+.aboutLeft {
     width: 50%;
     display: flex;
     align-items: center;
     height: 50vh;
 }
 
-.aboutImg{
+.aboutImg {
     width: 50%;
-    background-color:#37BEBB;
+    background-color: #37BEBB;
     height: 50vh;
 }
 
 
 
-.overlay{
+.overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -328,213 +331,216 @@ h1 {
     z-index: -1;
 }
 
-#hamburger-input{
+#hamburger-input {
     display: none;
-  }
-  
-  #hamburger-menu {  
-      position:initial;
-      top: 20px;
-      left: 20px;
-      width: 45px;
-      height: 40px;
-      display: none;
-      border: none;
-      padding: 0px;
-      margin: 20px;
-      background: linear-gradient(
-        to bottom, 
-        #000000, #000000 20%, 
-        rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 40%, 
-        #000000 40%, #000000 60%, 
-        rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 80%, 
-        #000000 80%, #000000 100%
-      );
-      
-  }
-  
-  #hamburger-menu #sidebar-menu {
-      visibility: hidden;
-      position: fixed;
-      top: 0;
-      left: -250px;
-      width: 100%;
-      height:150%;
-      background-color:#37BEBB;
-      transition: 0.3s;
-      padding: 0px 10px;
-      box-sizing: border-box;
-  }
-  
-  #sidebar-menu{
+}
+
+#hamburger-menu {
+    position: initial;
+    top: 20px;
+    left: 20px;
+    width: 45px;
+    height: 40px;
+    display: none;
+    border: none;
+    padding: 0px;
+    margin: 20px;
+    background: linear-gradient(to bottom,
+            #000000, #000000 20%,
+            rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 40%,
+            #000000 40%, #000000 60%,
+            rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 80%,
+            #000000 80%, #000000 100%);
+
+}
+
+#hamburger-menu #sidebar-menu {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 100%;
+    height: 150%;
+    background-color: #37BEBB;
+    transition: 0.3s;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+#sidebar-menu {
     text-align: center;
-  }
-  
-  #hamburger-menu h3 {
+}
+
+#hamburger-menu h3 {
     color: black;
     font-size: 2.2rem;
-  }
-  
-  #hamburger-menu ul {
+}
+
+#hamburger-menu ul {
     padding-left: 0px;
-  }
-  
-  #hamburger-menu li {
+}
+
+#hamburger-menu li {
     list-style-type: none;
     line-height: 3rem;
-  }
-  
-  #hamburger-menu a {
+}
+
+#hamburger-menu a {
     color: black;
     font-size: 1.3rem;
     text-decoration: none;
-  }
-  
-  #hamburger-menu a:hover {
+}
+
+#hamburger-menu a:hover {
     font-weight: bolder;
 }
-  
-  #hamburger-input:checked + #hamburger-menu #sidebar-menu {
-      visibility: visible;
-      left: 0;
-  }
-  #hamburger-input:checked ~ .overlay{
-     visibility: visible;
+
+#hamburger-input:checked+#hamburger-menu #sidebar-menu {
+    visibility: visible;
+    left: 0;
+}
+
+#hamburger-input:checked~.overlay {
+    visibility: visible;
     opacity: 0.4;
-  }
+}
 
-  #sidebar-menu h4:hover{
-        font-weight: lighter;
-  }
+#sidebar-menu h4:hover {
+    font-weight: lighter;
+}
 
-  @media screen and (max-width: 1550px){
-    .out{
+@media screen and (max-width: 1550px) {
+    .out {
         min-height: 230vh;
     }
-  }
+}
 
- 
 
-@media screen and (max-width: 1400px){
-    .total{
+
+@media screen and (max-width: 1400px) {
+    .total {
         height: 600px;
     }
 
-    .out{
+    .out {
         min-height: 200vh;
-    }  
-  
+    }
+
 }
 
-@media screen and (max-width: 1375px){
-    .out{
+@media screen and (max-width: 1375px) {
+    .out {
         min-height: 100vh;
-    }  
+    }
 }
 
-@media screen and (max-width: 1290px){
-    .ownerT{
+@media screen and (max-width: 1290px) {
+    .ownerT {
         font-size: 18px;
     }
 }
 
 
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1100px) {
 
-    .ownerT{
+    .ownerT {
         font-size: 16px;
     }
-    .total{
+
+    .total {
         height: 500px;
     }
 }
 
-@media screen and (max-width: 1045px){
+@media screen and (max-width: 1045px) {
     .drinktxt p {
         font-size: 18px;
     }
 }
 
-@media screen and (max-width:990px){
-    .total{
+@media screen and (max-width:990px) {
+    .total {
         display: flex;
         flex-direction: column;
         align-items: center;
         height: 90vh;
     }
 
-    .owners{
+    .owners {
         display: flex;
         width: 90%;
     }
-    .ownerT{
+
+    .ownerT {
         display: flex;
         width: 80%;
         font-size: 18px;
     }
 
-    .drinktxt h3{
+    .drinktxt h3 {
         font-size: 35px;
     }
 }
 
-@media screen and (max-width:950px){
+@media screen and (max-width:950px) {
     .drinktxt p {
         font-size: 16px;
     }
 }
 
-@media screen and (max-width: 885px){
-    .drinktxt h3{
+@media screen and (max-width: 885px) {
+    .drinktxt h3 {
         font-size: 30px;
     }
 }
 
-@media screen and (max-width: 850px){
-    .topnav a{
+@media screen and (max-width: 850px) {
+    .topnav a {
 
         padding: 14px 20px;
     }
 }
 
-@media screen and (max-width: 780px){
-/* This is for changing the flex direction of the home page so the images go across way and the text goes above*/
+@media screen and (max-width: 780px) {
+    /* This is for changing the flex direction of the home page so the images go across way and the text goes above*/
 
-.total{
-    height: 85vh;
+    .total {
+        height: 85vh;
+    }
+
+    .out {
+        flex-direction: column;
+
+    }
+
+    .drinktxt {
+        width: 100%;
+        align-items: normal;
+        position: inherit;
+        height: 60vh;
+    }
+
+    .drinks {
+        flex-direction: row;
+        width: 100%;
+        margin: 0;
+    }
+
 }
 
-.out{
-    flex-direction: column;
-    
-}
-.drinktxt{
-    width: 100%;
-    align-items: normal;
-    position:inherit;
-    height: 60vh;
-}
+@media screen and (max-width: 750px) {
 
-.drinks{
-    flex-direction: row;
-    width: 100%;
-    margin: 0;
-}
-
-}
-
-@media screen and (max-width: 750px){
-    
     /*this will be when the page adds a hamburger menu*/
-    .topnav a{
+    .topnav a {
         display: none;
     }
-    .navPos{
+
+    .navPos {
         display: flex;
         justify-content: start;
     }
-   
+
     .topnav {
         width: 80%;
         display: flex;
@@ -546,64 +552,75 @@ h1 {
     #hamburger-menu {
         display: flex;
 
-    }  
-}
-
-
-@media screen and (max-width: 730px){
-    .copyright{
-        font-size: 14px;
-    }
-    .left{
-        font-size: 14px;
     }
 }
 
-@media screen and (max-width: 710px){
 
-    .drinktxt p{
+@media screen and (max-width: 730px) {
+    .copyright {
+        font-size: 14px;
+    }
+
+    .left {
         font-size: 14px;
     }
 }
 
-@media screen and (max-width: 635px){
-    .copyright{
+@media screen and (max-width: 710px) {
+
+    .drinktxt p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .copyright {
         font-size: 12px;
     }
-    .left{
+
+    .left {
         padding-left: 0;
     }
 }
 
-@media screen and (max-width: 470px){
-    .drinktxt p{
+@media screen and (max-width: 470px) {
+    .drinktxt p {
         font-size: 12px;
     }
-    .bottom{
+
+    .bottom {
         flex-direction: column;
     }
-    .ends, .copyright{
+
+    .ends,
+    .copyright {
         height: 50%;
         justify-content: center;
         font-size: 18px;
     }
-    .mid{
+
+    .mid {
         display: none;
     }
 }
 
-@media screen and (max-width: 360px){
-    .ownerT{
+@media screen and (max-width: 360px) {
+    .ownerT {
         font-size: 17px;
     }
-    .drinktxt p{
+
+    .drinktxt p {
         font-size: 10px;
     }
-    .drinktxt h3{
+
+    .drinktxt h3 {
         font-size: 25px;
     }
-    .ends, .copyright{
+
+    .ends,
+    .copyright {
         font-size: 16px;
     }
 }
+
 /*I have covered for screen width down to 400px  */
