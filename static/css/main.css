@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-
-
+/* importing my fonts */
+ 
+/* includes padding ect into percentage calculations for all pages */
 * {
     box-sizing: border-box;
 }
@@ -12,6 +13,7 @@
     padding-right: 20px;
 }
 
+/* using a background images for my main page under nav bar */
 .mainImg {
     background-image: url("/img/mainImg.jpg");
     background-position: center;
@@ -21,7 +23,7 @@
     min-height: 800px;
 }
 
-
+/* setting the background color and font for the page */
 body {
     margin: 0;
     padding: 0;
@@ -62,7 +64,7 @@ h1 {
 
 }
 
-
+/* the follows code is for my nav hover adding a boarder only in each corners using before and after on hover */
 .topnav a::before,
 .topnav a::after {
     content: '';
@@ -190,6 +192,8 @@ h1 {
     width: 30%;
 }
 
+
+/* my paralax effect on the main page */
 .paralax {
 
     background-image: url("/img/poolside.jpg");
@@ -235,12 +239,14 @@ h1 {
 }
 
 
+/* using a large background length to achive a image scrolling effect using txt sticky */
 .out {
     width: 100%;
     min-height: 300vh;
     display: flex;
 }
 
+/* applying the sticky so the text doesn't move while the page scrolls  */
 .drinktxt {
     display: flex;
     width: 50%;
@@ -280,43 +286,15 @@ h1 {
 }
 
 
-.imgdisp {
+.imgdisp, .imgdisp img{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
 
-.imgdisp img {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-}
-
-.back {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    height: 50vh;
-}
-
-.aboutLeft {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    height: 50vh;
-}
-
-.aboutImg {
-    width: 50%;
-    background-color: #37BEBB;
-    height: 50vh;
-}
-
-
-
+/* this creates a full page overlay which comes out the left side of the page*/
 .overlay {
     position: fixed;
     top: 0;
@@ -331,10 +309,12 @@ h1 {
     z-index: -1;
 }
 
+
 #hamburger-input {
     display: none;
 }
 
+/* creates the actual menu shape */
 #hamburger-menu {
     position: initial;
     top: 20px;
@@ -409,6 +389,8 @@ h1 {
     font-weight: lighter;
 }
 
+
+/* media querys which adjust the size of items to scale the page */
 @media screen and (max-width: 1550px) {
     .out {
         min-height: 230vh;
@@ -459,6 +441,7 @@ h1 {
     }
 }
 
+/* changes the order of items when at a certain width */
 @media screen and (max-width:990px) {
     .total {
         display: flex;
@@ -531,7 +514,7 @@ h1 {
 
 @media screen and (max-width: 750px) {
 
-    /*this will be when the page adds a hamburger menu*/
+    /*this changes the visibility of the hamburger menu and makes the nav vanish*/
     .topnav a {
         display: none;
     }
@@ -583,6 +566,7 @@ h1 {
     }
 }
 
+/* at this width i remove the image from the footer and flip the flex direction to display the txt better */
 @media screen and (max-width: 470px) {
     .drinktxt p {
         font-size: 12px;
@@ -604,6 +588,7 @@ h1 {
     }
 }
 
+/* this is the smallest mobile width */
 @media screen and (max-width: 360px) {
     .ownerT {
         font-size: 17px;
@@ -623,4 +608,4 @@ h1 {
     }
 }
 
-/*I have covered for screen width down to 400px  */
+/*I have covered for screen width down to 320px  */

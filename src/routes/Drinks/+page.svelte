@@ -149,23 +149,26 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> 
 </div>
 
 <style>
+  /* this sets up the spacing between the columns */
   .alldrinks {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 100px;
   }
+
+  /* this holds both the images an text in a row */
   .all {
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 90vh;
   }
-
+/* all my images */
   .drink {
     background-image: url("/img/trop.jpg");
     width: 60%;
@@ -254,6 +257,7 @@
     list-style: circle;
   }
 
+  /* my media querys which change the font and page sizes so it scales */
   @media screen and (max-width: 1160px) {
     .name {
       font-size: 30px;
@@ -291,6 +295,8 @@
     .cont {
       height: 100%;
     }
+
+    /* This is set up so when the flex direction changes it goes from alternating structure to all the same */
     .order1 {
       flex-direction: column-reverse;
     }

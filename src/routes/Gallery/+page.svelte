@@ -1,4 +1,6 @@
 <script>
+
+    // these are the image apis that i am using for my gallery from the unsplash public api
     import { onMount } from "svelte";
 
     let imgs = [];
@@ -26,9 +28,11 @@
 <h1>Gallery</h1>
 <h2>SunSplash Beverages Around The World</h2>
 
+
+    <!-- I used a loop in my code to display the images, becuase its a gallery the all had the same style -->
 <div class="outer">
     {#each imgs as img}
-        <div class="imgboxs"><img src={img.urls.raw} /></div>
+        <div class="imgboxs"><img src={img.urls.raw} /></div>       <!-- the src goes directly to the raw link ehich is accesed off the json file -->
     {/each}
 </div>
 
@@ -43,8 +47,8 @@
         text-align: center;
     }
 
+    /* this sets everything to margin 0  */
     * {
-        box-sizing: border-box;
         margin: 0;
     }
     .outer {
@@ -60,6 +64,7 @@
         align-items: center;
     }
 
+     /* this makes my  images have a rounded edges*/
     .imgboxs img {
         display: flex;
         justify-content: space-evenly;
@@ -75,14 +80,14 @@
     .imgboxs:hover > img {
         transition: transform 0.8s ease;
         border-radius: 50px;
-    }
-
-    .imgboxs:hover > img {
-        padding: auto;
         transform: scale(1.1);
     }
 
+
+
     @media screen and (max-width: 950px) {
+
+        /* at screen width 950 i have flipped the flex direction so the images go fully asross the page */
         .imgboxs {
             width: 80%;
         }

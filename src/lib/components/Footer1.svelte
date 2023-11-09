@@ -1,3 +1,4 @@
+<!-- This is a div thats used to hold 2 footers so i can have 2 sections -->
 <div class="double">
     <footer class="top">
         <a href="/">Home</a> |
