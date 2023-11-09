@@ -1,3 +1,11 @@
+<script>
+  let showIngredients = false;
+
+  function toggleIngredients() {
+    showIngredients = !showIngredients;
+  }
+</script>
+
 <h1>Drinks List</h1>
 
 <div class="alldrinks">
@@ -19,16 +27,25 @@
             sipper.
           </p>
         </div>
-        <div class="ing"> 
-          <ul>
-            <li>Mango juice</li>
-            <li>Pineapple juice</li>
-            <li>Passion fruit juice</li>
-            <li>Coconut water</li>
-            <li>Coconut cream</li>
-            <li>Grenadine syrup</li>
-          </ul>
+        <div class="ing">
+          {#if showIngredients}
+            <ul>
+              <li>Mango juice</li>
+              <li>Pineapple juice</li>
+              <li>Passion fruit juice</li>
+              <li>Coconut water</li>
+              <li>Coconut cream</li>
+              <li>Grenadine syrup</li>
+            </ul>
+          {/if}
         </div>
+        <button on:click={toggleIngredients}>
+          {#if showIngredients}
+            Hide Ingredients
+          {:else}
+            Show Ingredients
+          {/if}
+        </button>
       </div>
     </div>
   </div>
@@ -149,10 +166,27 @@
         </div>
       </div>
     </div>
-  </div> 
+  </div>
 </div>
 
 <style>
+  button {
+    background: #0e0b22;
+    color: #fff;
+    padding: 0.6rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  button:hover {
+    cursor: pointer;
+    background: #1e1d25;
+  }
+
   /* this sets up the spacing between the columns */
   .alldrinks {
     display: flex;
@@ -168,7 +202,7 @@
     width: 100%;
     height: 90vh;
   }
-/* all my images */
+  /* all my images */
   .drink {
     background-image: url("/img/trop.jpg");
     width: 60%;
@@ -253,6 +287,7 @@
     width: 100%;
     align-items: start;
   }
+
   ul {
     list-style: circle;
   }
@@ -348,10 +383,9 @@
       font-size: 11px;
       padding: 0 20px;
     }
-    .ing{
+    .ing {
       font-size: 15px;
     }
-
   }
 
   @media screen and (max-width: 405px) {
@@ -364,7 +398,7 @@
     .name {
       font-size: 18px;
     }
-    .ing{
+    .ing {
       font-size: 14px;
     }
 
