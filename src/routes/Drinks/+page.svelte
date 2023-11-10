@@ -231,8 +231,8 @@
 
 <style>
   button {
-    background: #0e0b22;
-    color: #fff;
+    background-color: #37bebb;;
+    color: black;
     padding: 0.6rem;
     margin-top: 20px;
     border: none;
@@ -243,8 +243,7 @@
   }
 
   button:hover {
-    cursor: pointer;
-    background: #1e1d25;
+    opacity: 70%;
   }
 
   /* this sets up the spacing between the columns */
