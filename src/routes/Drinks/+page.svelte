@@ -1,4 +1,7 @@
 <script>
+
+// These are the functions that open and close the ingredients buttons, they are set to false by default 
+
   let showIngredients = false;
   let showIngredients1 = false;
   let showIngredients2 = false;
@@ -48,7 +51,7 @@
           </p>
         </div>
         <div class="ing">
-          {#if showIngredients}
+          {#if showIngredients} 
             <ul>
               <li>Mango juice</li>
               <li>Pineapple juice</li>
@@ -59,6 +62,7 @@
             </ul>
           {/if}
         </div>
+        <!-- This has an on click so the function is called when the button is pressed -->
         <button on:click={toggleIngredients}>
           {#if showIngredients}
             Hide Ingredients
