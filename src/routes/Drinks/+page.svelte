@@ -1,8 +1,28 @@
 <script>
   let showIngredients = false;
+  let showIngredients1 = false;
+  let showIngredients2 = false;
+  let showIngredients3 = false;
+  let showIngredients4 = false;
 
   function toggleIngredients() {
     showIngredients = !showIngredients;
+  }
+
+  function toggleIngredients1() {
+    showIngredients1 = !showIngredients1;
+  }
+
+  function toggleIngredients2() {
+    showIngredients2 = !showIngredients2;
+  }
+
+  function toggleIngredients3() {
+    showIngredients3 = !showIngredients3;
+  }
+
+  function toggleIngredients4() {
+    showIngredients4 = !showIngredients4;
   }
 </script>
 
@@ -66,6 +86,7 @@
           </p>
         </div>
         <div class="ing">
+          {#if showIngredients1}
           <ul>
             <li>Fresh lemon juice</li>
             <li>Fresh lime juice</li>
@@ -73,7 +94,15 @@
             <li>Simple syrup</li>
             <li>Water</li>
           </ul>
+          {/if}
         </div>
+        <button on:click={toggleIngredients1}>
+          {#if showIngredients1}
+            Hide Ingredients
+          {:else}
+            Show Ingredients
+          {/if}
+        </button>
       </div>
     </div>
     <div class="drink1 left" />
@@ -97,6 +126,7 @@
           </p>
         </div>
         <div class="ing">
+          {#if showIngredients2}
           <ul>
             <li>Fresh watermelon juice</li>
             <li>Fresh mint leaves</li>
@@ -104,7 +134,15 @@
             <li>Honey</li>
             <li>Ice cubes</li>
           </ul>
+          {/if}
         </div>
+        <button on:click={toggleIngredients2}>
+          {#if showIngredients2}
+            Hide Ingredients
+          {:else}
+            Show Ingredients
+          {/if}
+        </button>
       </div>
     </div>
   </div>
@@ -126,13 +164,22 @@
           </p>
         </div>
         <div class="ing">
+          {#if showIngredients3}
           <ul>
             <li>Pineapple juice</li>
             <li>Coconut cream</li>
             <li>Simple syrup</li>
             <li>Ice cubes</li>
           </ul>
+          {/if}
         </div>
+        <button on:click={toggleIngredients3}>
+          {#if showIngredients3}
+            Hide Ingredients
+          {:else}
+            Show Ingredients
+          {/if}
+        </button>
       </div>
     </div>
     <div class="drink3" />
@@ -157,13 +204,22 @@
           </p>
         </div>
         <div class="ing">
+          {#if showIngredients4}
           <ul>
             <li>Dried hibiscus flowers</li>
             <li>Mixed berries</li>
             <li>Water</li>
             <li>Honey</li>
           </ul>
+          {/if}
         </div>
+        <button on:click={toggleIngredients4}>
+          {#if showIngredients4}
+            Hide Ingredients
+          {:else}
+            Show Ingredients
+          {/if}
+        </button>
       </div>
     </div>
   </div>
